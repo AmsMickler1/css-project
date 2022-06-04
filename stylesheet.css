@@ -1,9 +1,41 @@
 .top{
+    
     color: #F9FAF8;
     background-color: #1F2937;
+    font-size: 24px;
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:space-around;
+    align-items: center;
+    flex-wrap:nowrap;
+    justify-content: space-around;
 
+}
+.links1{
+    
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+.top2{
+   color: #F9FAF8;
+   background-color: #1F2937;
+   display: flex; 
+   flex-direction: row;
+   justify-items:space-around ;
+   gap: 20px;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.button{
+    width: auto;
+    height: 25px;
+    color: #3882f6;
+}
+.puppy1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
