@@ -19,23 +19,27 @@
     align-items: center;
     gap: 20px;
 }
+
+    
 .top2{
    color: #F9FAF8;
    background-color: #1F2937;
-   display: flex; 
-   flex-direction: row;
-   justify-items:space-around ;
-   gap: 20px;
-   align-items: center;
+   display:flex; 
    flex-wrap: wrap;
+   flex-direction: row; 
+   justify-content: space-between;
+   align-items:baseline ;
+   
+
 }
 .button{
     width: auto;
     height: 25px;
     color: #3882f6;
 }
-.puppy1{
+/*.puppy1{
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+   align-self: flex-end;
+   justify-content: center;
+  
 }
